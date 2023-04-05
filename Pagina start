@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Telefoane</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f0f0f0;
+		}
+		header {
+			background-color: #222;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		nav {
+			background-color: #444;
+			padding: 10px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+			padding: 10px;
+			margin: 0 10px;
+		}
+		nav a:hover {
+			background-color: #666;
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 1200px;
+			padding: 20px;
+		}
+		.phone {
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 5px;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+		h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+		p {
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		ul {
+			margin-bottom: 10px;
+		}
+		ul li {
+			margin-left: 20px;
+			list-style: disc;
+		}
+	</style>
+</head>
+<body>
+
+	<header>Telefoane</header>
+	<nav>
+		<a href="#samsung">Samsung</a>
+		<a href="#apple">Apple</a>
+		<a href="#huawei">Huawei</a>
+		<a href="#xiaomi">Xiaomi</a>
+<a href="#google">Google</a>
+<a href="#oppo">Oppo</a>
+	</nav>
+	<div class="container">
+		<div class="phone" id="samsung">
+			<h2>Samsung Galaxy S21</h2>
+	<img src="C:\Users\alexm\Desktop\Site\Poze\images.jfif" width="300">
+
+			<p>Preț: 3.999 lei</p>
+			<p>Producător: <a href="https://www.samsung.com/ro/">Samsung</a></p>
+			<ul>
+				<li>Procesor: Exynos 2100</li>
+				<li>RAM: 8GB</li>
+				<li>Stocare: 128GB</li>
+				<li>Baterie: 4000 mAh</li>
+			</ul>
+		</div>
+		<div class="phone" id="apple">
+			<h2>iPhone 12 Pro</h2>
+			
+<img src="C:\Users\alexm\Desktop\Site\Poze\iphone-12.png" width="300">
+
+
+<p>Preț: 6.999 lei</p>
+<p>Producător: <a href="https://www.apple.com/ro/">Apple</a></p>
+<ul>
+<li>Procesor: A14 Bionic</li>
+<li>RAM: 6GB</li>
+<li>Stocare: 128GB</li>
+<li>Baterie: 2815 mAh</li>
+</ul>
+</div>
+<div class="phone" id="huawei">
+<h2>Huawei P40 Pro</h2>
+<img src="C:\Users\alexm\Desktop\Site\Poze\51OCL+HrkqL._AC_SX466_.jpg" width="250">
+<p>Preț: 3.999 lei</p>
+<p>Producător: <a href="https://consumer.huawei.com/ro/">Huawei</a></p>
+<ul>
+<li>Procesor: Kirin 990 5G</li>
+<li>RAM: 8GB</li>
+<li>Stocare: 256GB</li>
+<li>Baterie: 4200 mAh</li>
+</ul>
+</div>
+<div class="phone" id="xiaomi">
+<h2>Xiaomi Mi 11</h2>
+<img src="C:\Users\alexm\Desktop\Site\Poze\51GsOfNqG8L._AC_UF1000,1000_QL80_.jpg" width="250">
+<p>Preț: 3.299 lei</p>
+<p>Producător: <a href="https://www.mi.com/ro/">Xiaomi</a></p>
+<ul>
+<li>Procesor: Snapdragon 888</li>
+<li>RAM: 8GB</li>
+<li>Stocare: 128GB</li>
+<li>Baterie: 4600 mAh</li>
+</ul>
+</div>
+<div class="phone" id="google">
+    <h2>Google Pixel 6</h2>
+    <img src="C:\Users\alexm\Desktop\Site\Poze\res_9db039e3267f637f5b85638e83f46216.webp" width="300">
+    <p>Preț: 4.999 lei</p>
+    <p>Producător: <a href="https://store.google.com/ro/">Google</a></p>
+    <ul>
+        <li>Procesor: Tensor</li>
+        <li>RAM: 8GB</li>
+        <li>Stocare: 128GB</li>
+        <li>Baterie: 4614 mAh</li>
+    </ul>
+</div>
+
+<div class="phone" id="oppo">
+    <h2>OPPO Find X3 Pro</h2>
+    <img src="C:\Users\alexm\Desktop\Site\Poze\res_bb96b195a98f694481d41013ccc6a1ed.avif" width="300">
+    <p>Preț: 4.699 lei</p>
+    <p>Producător: <a href="https://www.oppo.com/ro/">OPPO</a></p>
+    <ul>
+        <li>Procesor: Snapdragon 888</li>
+        <li>RAM: 12GB</li>
+        <li>Stocare: 256GB</li>
+        <li>Baterie: 4500 mAh</li>
+    </ul>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+</html>
